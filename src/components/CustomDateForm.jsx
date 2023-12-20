@@ -86,7 +86,7 @@ function CustomDateForm() {
           Submit
         </button>
         <button className={styles.resetButton} onClick={handleReset}>
-          Move to current date
+          Jump to current Month
         </button>
       </div>
     </form>
