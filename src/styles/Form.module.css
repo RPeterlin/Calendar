@@ -1,0 +1,95 @@
+/* FORM */
+
+.dateSelectionForm {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labelInput {
+  margin-top: 6rem;
+  margin-right: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ee4766;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.labelInput input {
+  width: 8rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+
+  background: None;
+  border: 2px solid #ee4766;
+  border-radius: 5px;
+
+  font-size: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: bold;
+}
+.labelInput input:focus-within {
+  outline: none;
+}
+.labelInput input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.errorMsg {
+  height: 2rem;
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.buttonGroup button {
+  padding: 0.7rem 1.4rem;
+
+  background-color: #ee4766;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: bold;
+  font-size: 1rem;
+
+  transition: 0.25s;
+  
+}
+.buttonGroup button:hover {
+  background: none;
+  border: 2px solid #ee4766;
+}
+
+
+/* Different display sizes */
+
+@media only screen and (max-width: 1700px) {
+  .labelInput {
+    margin-top: 2.5rem;
+  }
+  .buttonGroup {
+    margin-top: 1rem;
+  }
+  .errorMsg {
+    margin-top: 1rem;
+  }
+}

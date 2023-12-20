@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  myapp:
+    build: ./
+    container_name: myapp_container
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true

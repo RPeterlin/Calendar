@@ -1,0 +1,50 @@
+{
+  "1-1": {
+    "ime": "Novo leto",
+    "dvojni": "true"
+  },
+  "2-1": {
+    "ime": "Novo leto",
+    "dvojni": "true"
+  },
+  "8-2": {
+    "ime": "Prešernov dan",
+    "dvojni": "false"
+  },
+  "25-6": {
+    "ime": "Dan državnosti",
+    "dvojni": "false"
+  },
+  "1-11": {
+    "ime": "Dan spomina na mrtve",
+    "dvojni": "false"
+  },
+  "26-12": {
+    "ime": "Dan samostojnosti in enotnosti",
+    "dvojni": "false"
+  },
+  "15-8": {
+    "ime": "Marijino vnebovzetje",
+    "dvojni": "false"
+  },
+  "31-10": {
+    "ime": "Dan reformacije",
+    "dvojni": "false"
+  },
+  "25-12": {
+    "ime": "Božič",
+    "dvojni": "false"
+  },
+  "1-5": {
+    "ime": "Praznik dela",
+    "dvojni": "true"
+  },
+  "2-5": {
+    "ime": "Praznik dela",
+    "dvojni": "true"
+  },
+  "27-4": {
+    "ime": "Dan upora proti okupatorju",
+    "dvojni": "false"
+  }
+}
